@@ -1,0 +1,57 @@
+name: komatsu_diagnostic
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.2.11
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.3.0
+  cloud_firestore: ^5.2.1
+  file_picker: ^8.0.6
+  firebase_storage: ^12.1.2
+  photo_view: ^0.15.0
+  carousel_slider: ^4.2.1
+  syncfusion_flutter_pdfviewer: ^26.2.5
+  zoom_view: ^0.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  rename_app: ^1.6.1
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icons/icons.jpeg"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/icons.jpeg"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "assets/icons/icons.jpeg"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/icons.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/videos/splash.mp4
+    - assets/images/splash.png
+    - assets/images/unitedtractors.png
+    - assets/document/
+    - assets/icons/

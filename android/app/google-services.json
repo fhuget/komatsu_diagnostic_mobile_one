@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612392661218",
+    "project_id": "komatsu-diagnostic",
+    "storage_bucket": "komatsu-diagnostic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612392661218:android:9f0928b7841be33990aebb",
+        "android_client_info": {
+          "package_name": "com.example.komatsu_diagnostic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGc3Y1v4-iib5ayywFuunIIttYIhPfb0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
